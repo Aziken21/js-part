@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter</title>
+    <link rel="stylesheet" href="./10style.css" />
+  </head>
+  <body>
+    <div class="filter">
+      <div class="filter-btns">
+        <div
+          data-filter="all"
+          class="filter-btns__item active"
+          onclick="filterImage('all')"
+        >
+          Все
+        </div>
+        <div
+          data-filter="animals"
+          class="filter-btns__item"
+          onclick="filterImage('animals')"
+        >
+          Животные
+        </div>
+        <div
+          data-filter="people"
+          class="filter-btns__item"
+          onclick="filterImage('people')"
+        >
+          Люди
+        </div>
+        <div
+          data-filter="nature"
+          class="filter-btns__item"
+          onclick="filterImage('nature')"
+        >
+          Природа
+        </div>
+
+        <select id="filter-options">
+          <option value="all">Все</option>
+          <option value="animals">Животные</option>
+          <option value="people">Люди</option>
+          <option value="nature">Природа</option>
+        </select>
+      </div>
+      <div class="filter-content">
+        <img
+          class="all people scale-in-ver-center"
+          src="https://fastly.picsum.photos/id/680/300/300.jpg?hmac=0nohw5nxDePb6VLWMSqxhJDniVZSyFCFbEsCxhK_ps0"
+          alt=""
+        />
+        <img
+          class="all people scale-in-ver-center"
+          src="https://fastly.picsum.photos/id/64/300/300.jpg?hmac=tIqPMmxrlIvlgHwBqR7lzPQyHO-KElXvhXwtKuyPse4"
+          alt=""
+        />
+        <img
+          class="all people scale-in-ver-center"
+          src="https://fastly.picsum.photos/id/838/300/300.jpg?hmac=XTmXOB5weCD0GYvJSxOwV0dQhuN4EccpOxVh0w_dG9s"
+          alt=""
+        />
+        <img
+          class="all animals scale-in-ver-center"
+          src="https://fastly.picsum.photos/id/237/300/300.jpg?hmac=9iUR3VHqf0Y9abGyuPZTpEIxHJL0sSvyNtJtDIMSylM"
+          alt=""
+        />
+        <img
+          class="all animals scale-in-ver-center"
+          src="https://fastly.picsum.photos/id/130/300/300.jpg?hmac=DeGsN1c-WvfSc-8U_rp48Up17kIFefIRJDV5xDRusPo"
+          alt=""
+        />
+        <img
+          class="all animals scale-in-ver-center"
+          src="https://fastly.picsum.photos/id/433/300/300.jpg?hmac=04_lO0j-rnEGAQI4E3w_5DD2Mzhsh0aJLcZ3UmCSmsE"
+          alt=""
+        />
+        <img
+          class="all nature scale-in-ver-center"
+          src="https://fastly.picsum.photos/id/287/300/300.jpg?hmac=ubwhcodEXdWUh13IuSg73WfdIQ8riXhrBpNIlCn7mxA"
+          alt=""
+        />
+        <img
+          class="all nature scale-in-ver-center"
+          src="https://fastly.picsum.photos/id/717/300/300.jpg?hmac=ODMDT4BK06E34bs6Lx4EwESIDf3Gd6YGVZ1rwhw8vnA"
+          alt=""
+        />
+        <img
+          class="all nature scale-in-ver-center"
+          src="https://fastly.picsum.photos/id/650/300/300.jpg?hmac=5dcDyj6pB25BQarJUEExVE63GwTgfKwo3lnAT6oJaws"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <script src="./10index.js"></script>
+  </body>
+</html>
